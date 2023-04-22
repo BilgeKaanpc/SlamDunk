@@ -2459,7 +2459,7 @@ MonoBehaviour:
   effects:
   - {fileID: 2212030035105493366}
   - {fileID: 739808290879239022}
-  goalBall: 1
+  goalBall: 3
   basketCount: 0
 --- !u!82 &1387930814
 AudioSource:
