@@ -15,7 +15,10 @@ public class Ball : MonoBehaviour
         }
         else if (other.CompareTag("gameOver"))
         {
-            _GameManager.GameOver();
+            if(_GameManager.goalBall != _GameManager.basketCount)
+            {
+                _GameManager.GameOver();
+            }
         }
     }
     private void OnCollisionEnter(Collision collision)
