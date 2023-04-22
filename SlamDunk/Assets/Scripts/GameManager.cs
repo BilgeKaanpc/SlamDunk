@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public GameObject platform;
+    public GameObject pota;
     [SerializeField] private Image[] missionImages;
     [SerializeField] private Sprite missionCompleted;
     [SerializeField] private int goalBall;
@@ -36,6 +37,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void GrowPota()
+    {
+
+    }
     public void Basket()
     {
         basketCount++;
